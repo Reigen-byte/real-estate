@@ -1,0 +1,19 @@
+body {
+    margin: 0;
+}
+
+header {
+    width: 1000px;
+    background-color: yellow;
+    margin-left: calc(50% - 500px);
+}
+
+img {
+    width: 100px;
+    height: 30px;
+    background-color: red;
+}
+
+nav + img {
+    
+}
