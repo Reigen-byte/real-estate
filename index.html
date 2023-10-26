@@ -1,9 +1,11 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Real Estate</title>
+    <link rel="shortcut icon" href="./favicon.ico" type="image/x-icon">
     <link rel="apple-touch-icon" sizes="180x180" href="./favicon/apple-touch-icon.png">
     <link rel="icon" type="image/png" sizes="32x32" href="./favicon/favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="16x16" href="./favicon/favicon-16x16.png">
@@ -12,121 +14,119 @@
     <meta name="msapplication-TileColor" content="#da532c">
     <meta name="theme-color" content="#ffffff">
     <link rel="stylesheet" href="./css/main.css">
+    <link rel="stylesheet" href="./css/font-awesome.min.css">
 </head>
 
 <body>
-    <header>
-        <img src="./img/logo.png" alt="Logo">
-        <div>
-            <nav>
-                <a href="#">Buy</a>
-                <a href="#">Rent</a>
-                <a href="#">Agent</a>
-                <a href="#">About</a>
+    <header class="main-header">
+        <img class="logo" src="./img/logo.png" alt="Logo">
+
+        <div class="main-header-right-side">
+            <nav class="main-menu">
+                <a class="menu-link" href="#">Buy</a>
+                <a class="menu-link" href="#">Rent</a>
+                <a class="menu-link" href="#">Agent</a>
+                <a class="menu-link" href="#"><span>About</span> our team</a>
             </nav>
-            <img src="./img/user.webp" alt="User Avatar">
-         </div>
+
+            <img class="user-avatar" src="./img/user.webp" alt="User avatar">
+        </div>
     </header>
 
     <main>
-        <section>
-            <div>
-                <h1>We help you find your dream home.</h1>
-                <div>
-                    <form>
-                        <div>
-                            <button type="button">Buy</button>
-                            <button type="button">Rent</button>
+        <section class="hero">
+            <div class="hero-content">
+                <h1 class="main-title">We help you find your dream home.</h1>
+                <form>
+                    <div>
+                        <button type="button">Buy</button>
+                        <button type="button">Rent</button>
+                    </div>
+                    <div>
+                        <input type="text">
+                        <button type="submit"></button>
+                    </div>
+                </form>
+            </div>
+        </section>
+
+        <section class="neighborhood">
+            <div class="section-title">
+                <h2 class="title">Top neighborhood</h2>
+                <p class="description">Lorem ipsum dolor sit amet, consectetur adipisicing.</p>
+            </div>
+            <div class="neighborhood-listing">
+                <div class="listing-item">
+                    <img class="item-image" src="./img/1.webp" alt="House">
+                    <div class="item-size">$1862 / Sq. Ft.</div>
+                    <div class="item-details">
+                        <p class="location">ICON + New York, NY</p>
+                        <p class="name">Carroll Gardens</p>
+                    </div>
+                </div>
+                <div class="listing-item">
+                    <img class="item-image" src="./img//2.webp" alt="House">
+                    <div class="item-size">$1862 / Sq. Ft.</div>
+                    <div class="item-details">
+                        <p class="location">ICON + New York, NY</p>
+                        <p class="name">Carroll Gardens</p>
+                    </div>
+                </div>
+                <div class="listing-item last-item">
+                    <img class="item-image" src="./img/3.webp" alt="House">
+                    <div class="item-size">$1862 / Sq. Ft.</div>
+                    <div class="item-details">
+                        <p class="location">ICON + New York, NY</p>
+                        <p class="name">Carroll Gardens</p>
+                    </div>
+                </div>
+                <a href="#">See all</a>
+            </div>
+        </section>
+
+        <section class="recommended">
+            <div class="section-title">
+                <h2 class="title">Recommended for you</h2>
+                <p class="description">Lorem ipsum dolor sit amet, consectetur adipisicing.</p>
+            </div>
+            <div class="recommended-listing">
+                <div class="listing-item">
+                    <img class="item-image" src="./img/4.webp" alt="House">
+                    <div class="item-details">
+                        <p class="item-price">$123,456</p>
+                        <p class="location-street">121 Gatves g.</p>
+                        <p class="location-city">Miestas, Salis, 12345</p>
+                        <div class="item-features">
+                            <p class="feature"><i class="fa fa-bath" aria-hidden="true"></i>pirmas</p>
+                            <p class="feature"><i class="fa fa-bed" aria-hidden="true"></i>antras</p>
+                            <p class="feature"><i class="fa fa-object-group" aria-hidden="true"></i>trecias</p>
                         </div>
-                        <div>
-                            <input type="text">
-                            <button type="submit"></button>
+                    </div>
+                    <div class="bookmark active">
+                        <div class="fa fa-bookmark-o"></div>
+                        <div class="fa fa-bookmark"></div>
+                    </div>
+                </div>
+                <div class="listing-item">
+                    <img class="item-image" src="./img/1.webp" alt="House">
+                    <div class="item-details">
+                        <p class="item-price">$123,456</p>
+                        <p class="location-street">121 Gatves g.</p>
+                        <p class="location-city">Miestas, Salis, 12345</p>
+                        <div class="item-features">
+                            <p class="feature"><i class="fa fa-bath" aria-hidden="true"></i>2 Baths</p>
+                            <p class="feature"><i class="fa fa-bed" aria-hidden="true"></i>2 Baths</p>
+                            <p class="feature"><i class="fa fa-object-group" aria-hidden="true"></i>2 Baths</p>
                         </div>
-                    </form>
+                    </div>
+                    <div class="bookmark">
+                        <div class="fa fa-bookmark-o"></div>
+                        <div class="fa fa-bookmark"></div>
+                    </div>
                 </div>
             </div>
         </section>
-        
-            <section>
-                <div>
-                    <h2>Top neighborhood</h2>
-                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing.</p>
-                </div>
-                <div>
-                    <img src="#" alt="House">
-                    <div>$1862 / Sq. Ft</div>
-                    <div>
-                        <p>ICON + New York, NY</p>
-                        <p>Carroll Gardens</p>
-                    </div>
-                    <a href="#">See all</a>
-                </div>
-                <div>
-                    <img src="#" alt="House">
-                    <div>$1862 / Sq. Ft</div>
-                    <div>
-                        <p>ICON + New York, NY</p>
-                        <p>Carroll Gardens</p>
-                    </div>
-                    <a href="#">See all</a>
-                </div>
-                <div>
-                    <img src="#" alt="House">
-                    <div>$1862 / Sq. Ft</div>
-                    <div>
-                        <p>ICON + New York, NY</p>
-                        <p>Carroll Gardens</p>
-                    </div>
-                    <a href="#">See all</a>
-                </div>
-            </section>
-
-            <section>
-                <div>
-                    <h2>Recommended for you</h2>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing.</p>
-                </div>
-                <div>
-                    <div>
-                        <img src="" alt="House">
-                        <div>
-                            <p>$798,500</p>
-                            <p>121 East 28th Street</p>
-                            <p>Manhattan, NY 10016</p>
-                            <div>
-                                <div>
-                                    <img src="#" alt="ICON"> 2 Baths
-                                </div>
-                                <div>
-                                    <img src="" alt=""> 3 Beds
-                                </div>
-                                <div>
-                                    <img src="" alt=""> 1,500sqft
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div>
-                        <img src="" alt="House">
-                        <div>
-                            <p>$295,000</p>
-                            <p>2656 Sunny View Dr</p>
-                            <p>Illiopolis, IL 62539</p>
-                            <div>
-                                <div>
-                                    <img src="#" alt="ICON"> 1 Baths
-                                </div>
-                                <div>
-                                    <img src="" alt=""> 2 Beds
-                                </div>
-                                <div>
-                                    <img src="" alt=""> 900sqft
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </section>
     </main>
 </body>
+
 </html>
